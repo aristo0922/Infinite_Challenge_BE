@@ -7,7 +7,6 @@ import subway.domain.Station;
 
 import static subway.service.InitSubwayValues.lineRepo;
 import static subway.service.InitSubwayValues.stationRepo;
-import static subway.service.utils.Constants.stationManager;
 
 public class SectionManager implements Managerable {
     private Line line=null;
